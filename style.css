@@ -21,3 +21,7 @@
 @media print{.stage-toolbar{display:none}}
 
 .leaflet-tooltip.stage-number{pointer-events:auto}.stage-number button{font:inherit;font-weight:inherit;color:inherit;background:none;border:0;border-radius:3px;padding:0;min-width:18px;line-height:1.4}.stage-number button:hover{background:#f0e5c5}.stage-popup button{min-height:44px}
+
+/* Smaller labels, with separate generous hit areas for selecting journeys. */
+.leaflet-tooltip.stage-number{font-size:11px;border-width:1.5px;border-radius:5px;padding:2px 4px;min-width:22px;box-shadow:0 1px 4px #0007}.stage-number button{min-width:13px;line-height:1.3}.journey-toolbar{padding-top:0}.stage-directions,.journey-open{display:block;padding:11px 12px;margin:12px 0 5px;background:#1a5140;color:#fff!important;text-align:center;text-decoration:none;border-radius:6px;font-size:12px;font-weight:650;line-height:1.5;min-height:44px}.journey-popup .journey-kicker{display:block;font-size:9px;letter-spacing:.1em;font-weight:700;color:#70816f;margin:0 0 7px}.journey-popup strong{display:block;font:400 23px/1.2 Georgia,serif;color:#193f34}.journey-popup p{font-size:12px;line-height:1.65;color:#536756;margin:12px 0}.journey-popup small{display:block;font-size:10px;color:#6b7c6c;line-height:1.5;margin:10px 0 3px}.journey-open:hover,.stage-directions:hover{background:#286b52;color:#fff!important}
+@media(max-width:760px){.leaflet-tooltip.stage-number{font-size:10px;padding:2px 4px;min-width:21px}.stage-number button{min-width:12px}.stage-toolbar select{font-size:11px}}
