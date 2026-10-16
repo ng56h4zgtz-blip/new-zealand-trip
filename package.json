@@ -1,0 +1,1 @@
+{"name":"new-zealand-family-travel-guide-2027","private":true,"version":"2.0.0","scripts":{"test":"node tests/verify-data.cjs && node tests/interactions.cjs","check":"node --check app.js && node --check trip-data.js"},"devDependencies":{"linkedom":"0.18.13"}}
