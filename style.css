@@ -13,4 +13,4 @@
 @media(min-width:761px){.itinerary{height:calc(100dvh - clamp(340px,30vw,470px) - 100px);min-height:430px;max-height:720px}#map{height:calc(100dvh - clamp(340px,30vw,470px) - 190px);min-height:360px;max-height:620px}.dayhead{min-height:92px}.day-photo{height:92px;min-height:92px}}
 
 /* On phones, the selected day's own satellite map replaces the distant overview. */
-@media(max-width:760px){.workspace>.atlas{display:none}.daybody .daymap{height:340px;height:min(52svh,420px);min-height:280px}.daybody .daymap .leaflet-control-attribution{font-size:8px}}
+@media(max-width:760px){.workspace>.atlas{display:block}.daybody .daymap{height:340px;height:min(52svh,420px);min-height:280px}.daybody .daymap .leaflet-control-attribution{font-size:8px}}
